@@ -41,8 +41,8 @@ Therefore, careful selection and validation of proxy variables is critical.
 
 ### 3. Trade-offs: Interpretable vs High-Performance Models
 
-* **Simple/Interpretable Models (Logistic Regression + WoE):** Highly favored in regulated spaces. They offer transparent, linear log-odds coefficients and smooth scorecard binnings that are easy to explain to compliance auditors, though they may miss complex non-linear feature interactions.
-* **High-Performance Models (Gradient Boosting/XGBoost):** Achieve superior predictive accuracy and lower loss rates by optimizing non-linear patterns. However, they lack direct interpretability, requiring secondary explanation frameworks (like SHAP values) which are harder to defend under strict regulatory scrutiny.
+In credit risk modeling, there is a key trade-off between interpretability and predictive performance.
+
 #### Interpretable Models (e.g., Logistic Regression with WoE)
 
 Advantages:
